@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+#
+
+BowlingGame.destroy_all
+Throw.destroy_all
+bowling_game = BowlingGame.create(id:1)
+Throw.create(pins: 6, bowling_game: bowling_game) 
+Throw.create(pins: 3, bowling_game: bowling_game) 
+Throw.create(pins: 4, bowling_game: bowling_game) 
+Throw.create(pins: 4, bowling_game: bowling_game) 
