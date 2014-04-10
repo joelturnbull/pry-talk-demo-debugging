@@ -46,6 +46,7 @@ gem 'spring',        group: :development
 # Use debugger
 group :development, :test do
   gem 'pry'
+  gem 'pry-rescue'
   gem 'pry-debugger'
   gem 'pry-stack_explorer'
 end
