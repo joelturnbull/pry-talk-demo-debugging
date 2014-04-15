@@ -6,7 +6,7 @@
   </tr>
   <tr>
     <% @bowling_game.frames.each do |frame| %>
-      <td><%= binding.pry; frame[0].pins %></td>
+      <td><%= frame[0].pins %></td>
       <td><%= frame[1].pins %></td>
     <% end %>
   </tr>
