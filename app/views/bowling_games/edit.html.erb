@@ -16,7 +16,7 @@
 Throw it!
 <% (0..10).each do |pins| %>
   <%= form_tag bowling_game_path, method: "put", style: "display: inline" do %>
-    <%= hidden_field_tag(:pin, pins) %>
+    <%= hidden_field_tag(:pins, pins) %>
     <%= submit_tag(pins) %>
   <% end %>
 <% end %>
