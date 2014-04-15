@@ -49,5 +49,6 @@ group :development, :test do
   gem 'pry-rescue'
   gem 'pry-debugger'
   gem 'pry-stack_explorer'
+  gem 'pry-clipboard'
   gem 'awesome_print'
 end
