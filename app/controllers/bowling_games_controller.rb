@@ -1,5 +1,6 @@
 class BowlingGamesController < ApplicationController
   def edit
+    binding.pry
     @bowling_game = BowlingGame.find(params[:id])
   end
 
